@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Loader</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .loader {
+            text-align: center;
+        }
+
+        .loader input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        .loader input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <h2>Website Loader</h2>
+        <form>
+            <input type="text" placeholder="Enter website URL" required>
+            <br><br>
+            <input type="submit" value="Load Website">
+        </form>
+    </div>
+</body>
+</html>
